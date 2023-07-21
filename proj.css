@@ -1,0 +1,372 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+}
+
+.navbar {
+    width: 100%;
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #862B0D;
+    position: fixed;
+    z-index: 1;
+    flex-flow: wrap;
+}
+
+.logo {
+    width: 60px;
+}
+
+.list {
+    display: inline-block;
+    list-style: none;
+    /* use this if the style os list is not changing */
+    margin: 10px 20px;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+.links:hover {
+    color: #FFF9C9;
+
+}
+
+#home {
+    width: 100%;
+    height: 600px;
+    background: url('https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.coffee1 {
+    font-size: 20px;
+    color: #000000;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+
+}
+
+.coffee2 {
+    font-size: 50px;
+    color: #862B0D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.coffee-link {
+    position: absolute;
+    top: 310px;
+    left: 410px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 9px;
+    font-size: 16px;
+    border: 10px #8f3314 solid;
+    color: #ffffff;
+    background-color: #8f3314;
+
+}
+
+.coffee-link:hover {
+    color: #000000;
+    background-color: aliceblue;
+    border: 20px solid black;
+    border: 10px aliceblue solid;
+}
+
+.coffee-li1 {
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    color: #8f3314;
+    font-weight: 700;
+
+}
+
+.coffee-li2 {
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    color: #8f3314;
+    font-weight: 700;
+
+}
+
+.coffee-li3 {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    color: #8f3314;
+    font-weight: 700;
+
+
+}
+
+#about {
+    width: 100%;
+    height: 150px;
+    background-color: #8f3314;
+    position: relative;
+}
+
+.about-p {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    right: 19px;
+    color: #FFF9C9;
+    opacity: 0.9;
+
+}
+
+.speciality {
+    background-color: #8f3314;
+    position: relative;
+    width: 100%;
+    height: 1100px;
+
+}
+
+.special-img {
+    width: 680px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    opacity: 0.83;
+    border-radius: 40px;
+}
+
+.special-img2 {
+    width: 640px;
+    position: absolute;
+    left: 840px;
+    top: 590px;
+    opacity: 0.83;
+    border-radius: 40px;
+}
+
+.special-p {
+    position: absolute;
+    width: 750px;
+    left: 750px;
+    top: 47px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.special-imga {
+    width: 60px;
+    position: absolute;
+    left: 750px;
+    top: 240px;
+    opacity: 0.7;
+
+}
+
+.special-imgb {
+    width: 60px;
+    position: absolute;
+    left: 750px;
+    top: 340px;
+    opacity: 0.7;
+
+
+}
+
+.special-imgc {
+    width: 60px;
+    position: absolute;
+    left: 750px;
+    top: 440px;
+    opacity: 0.7;
+
+
+
+}
+
+.special-p2 {
+    position: absolute;
+    left: 850px;
+    right: 10px;
+    top: 240px;
+    color: #FFF9C9;
+
+}
+
+.special-p3 {
+    position: absolute;
+    left: 850px;
+    right: 10px;
+    top: 340px;
+    color: #FFF9C9;
+}
+
+.special-p4 {
+    position: absolute;
+    left: 850px;
+    right: 10px;
+    top: 440px;
+    color: #FFF9C9;
+}
+
+.route {
+    width: 100px;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+
+
+}
+
+.location-p1 {
+
+    width: 600px;
+    position: absolute;
+    color: #000000;
+    font-weight: 600;
+    left: 170px;
+
+    top: 600px;
+
+}
+
+.location-p2 {
+    width: 750px;
+    position: absolute;
+    color: #000000;
+    font-weight: 600;
+    left: 30px;
+    top: 740px;
+
+}
+
+.location-p3 {
+    width: 750px;
+    position: absolute;
+    color: #FFF9C9;
+    left: 30px;
+    top: 880px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hrr {
+
+    border: none;
+    /* Remove the default border */
+    background-color: #FFF9C9;
+    /* Set the background color to red */
+    height: 1px;
+    position: absolute;
+    left: 110px;
+    top: 14px;
+    width: 35%;
+    align-items: center;
+    opacity: 0.3;
+}
+.hrrr {
+
+    border: none;
+    /* Remove the default border */
+    background-color: #FFF9C9;
+    /* Set the background color to red */
+    height: 1px;
+    position: absolute;
+    left: 900px;
+    top: 550px;
+    width: 35%;
+    align-items: center;
+    opacity: 0.3;
+}
+
+::-webkit-scrollbar{
+    background-color:#862B0D;
+    width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+#contact{
+    height: 100px;
+    width: 100%;
+    background-color: #f8f0b6;
+    position: relative;
+}
+.insta-logo{
+    width: 30px;
+    position: absolute;
+    left: 35%;
+    top: 28px;
+}
+.linkdn-logo{
+    width: 35px;
+    position: absolute;
+    left: 36%;
+    top: 28px;
+}
+.insta-h{
+    position: absolute;
+    left: 36%;
+    top: 10px ;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.linkdn-h{
+    position: absolute;
+    left: 60%;
+    top: 10px ;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+    
+
+
+}
+.insta-h:hover{
+
+    color: #862B0D;
+
+}
+
+.linkdn-h:hover{
+
+    color: #862B0D;
+
+}
+
+.coffee-shop{
+
+    position: absolute;
+    left: 48%;
+    top: 15px;
+    width: 60px;
+
+}
+
+
+.links:hover {
+    color: #FFF9C9;
+}
